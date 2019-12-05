@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Courgette|Didact+Gothic|Quicksand:400,700&display=swap');
+
+/*home page*/
+#wrapper-home {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  top:30px;
+  right: 50px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+}
+
+nav a{
+  color: white;
+  display: inline-block;
+  padding: 15px 5px;
+}
+
+nav a:hover{
+  color: darkred;
+}
+
+#home-header{
+  display: block;
+  padding: 80px 0;
+  background-image: url("../img/hearder.jpg");
+  margin: 0;
+  filter:grayscale(50%);
+}
+
+#home-h1{
+display: block;
+color: white;
+font-size: 100px;
+margin: 30px 80px;
+background-color: transparent;
+font-family:Courgette, sans-serif;
+}
+
+
+#hi{
+  padding: 150px 0;
+  text-align: center;
+  font-family: Amiri, sans-serif;
+}
+
+#hi p{
+  font-size: 28px;
+}
+
+#hi i{
+  font-size: 30px;
+  display: inline-block;
+  padding:0 8px;
+  text-align: center;
+  color: darkgrey;
+}
+
+#hi i:hover{
+  transition: all 0.3s;
+  transform:scale(1.1);
+  color: darkred;
+}
+
+.home-h3{
+  margin:0;
+  padding:220px 100px;
+  text-align: center;
+  color: darkred;
+  font-size: 48px;
+  font-family:Didact Gothic, sans-serif;
+}
+
+#work{
+  background-color: darkred;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  grid-column-gap:0;
+  grid-template-areas:
+  "skincare makeup lifestyle";
+}
+
+#makeup{
+  grid-area: makeup;
+  background-image: url("../img/makeup-header.jpg");
+}
+
+#skincare{
+  grid-area: skincare;
+  background-image: url("../img/skin-header.jpg");
+}
+
+#lifestyle{
+  grid-area: lifestyle;
+  background-image: url("../img/life-header.jpg");
+}
+
+#makeup h3:hover{
+  color: white;
+  background-color: darkred;
+  filter: opacity(0.9);
+}
+
+#skincare h3:hover{
+  color: white;
+  background-color: darkred;
+  filter: opacity(0.9);
+}
+
+#lifestyle h3:hover{
+  color: white;
+  background-color: darkred;
+  filter: opacity(0.9);
+}
+
+
+/*content pages*/
+
+.content-header{
+  padding: 100px 0;
+  margin-bottom: 50px;
+  background-image:url("../img/hearder.jpg");
+  filter:grayscale(50%);
+}
+
+
+.content-header-h1{
+  margin: 0;
+  color: white;
+  font-size: 68px;
+  padding-left: 200px;
+  font-family:Courgette, sans-serif;
+}
+
+
+.content-main{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  text-align:center;
+  display: grid;
+  grid-template-columns: [content-start] 1fr 1fr 1fr[content-end];
+  grid-template-rows: [content-start] 300px [content-end] 500px 500px ;
+  grid-column-gap:0;
+}
+
+.content-main2{
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align:center;
+  display: grid;
+  grid-template-columns: [content-start] 1fr 1fr 1fr[content-end];
+  grid-template-rows: [content-start] 300px [content-end] 400px 400px ;
+  grid-column-gap:0;
+}
+
+.content-intro{
+  grid-row: content;
+  grid-column: content;
+}
+
+.content-intro p{
+  padding: 0 120px;
+  max-width: 960px;
+  font-size: 24px;
+  font-family: Amiri, sans-serif;
+  text-align: right;
+}
+
+.content-intro h2{
+  margin: 0;
+  padding: 60px 120px 0 120px;
+  max-width: 960px;
+  text-align: right;
+  font-family: Amiri, sans-serif;
+}
+
+.content-intro2{
+  grid-row: content;
+  grid-column: content;
+}
+
+.content-intro2 p{
+  padding: 0 210px;
+  max-width: 960px;
+  font-size: 24px;
+  font-family: Amiri, sans-serif;
+  text-align: right;
+}
+
+.content-intro2 h2{
+  margin: 0;
+  padding: 60px 210px 0 210px;
+  max-width: 960px;
+  text-align: right;
+  font-family: Amiri, sans-serif;
+}
+
+#l-wrapper main{
+  max-width: 1200px;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+footer{
+  margin:0;
+  padding: 30px 50px 30px 0;
+  background-color: darkred;
+  text-align: right;
+  color: white;
+  font-family: Sulphur Point, sans-serif;
+}
+
+footer i{
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+footer i:hover{
+  transition: all 0.3s;
+  transform:scale(0.9);
+}
+
+
+.img{
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+.img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.img p{
+  color: darkred;
+  font-family: Quicksand, sans-serif;;
+  font-weight: 400;;
+}
+
+/*about page*/
+
+#wrapper-about {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#about-h1{
+  font-size: 52px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: Didact Gothic, sans-serif;
+}
+
+p{
+  font-size: 18px;
+  margin: 0;
+  font-family: Quicksand, sans-serif;;
+  font-weight: 400;
+}
+
+
+#body-about{
+  margin: 0;
+  color: white;
+  background-image:url("../img/about-bg.jpg");
+}
+
+#main-about{
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  grid-template-rows:auto;
+  grid-column-gap:20px;
+  grid-template-areas:
+  "intro img"
+  "clients .";
+
+}
+
+#img{
+  grid-area:img;
+  margin-top: 150px;
+  border: dashed 0 white;
+}
+
+#intro{
+  grid-area:intro;
+  margin-left: 40px;
+  margin-top: 150px;
+  height: 440px;
+}
+
+#intro a{
+  color: darkred;
+}
+
+#intro a:hover{
+  color: white;
+}
+
+#email{
+margin-top: 30px;
+}
+
+#resume{
+  margin-top: 30px;
+}
