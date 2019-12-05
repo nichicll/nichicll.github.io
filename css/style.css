@@ -284,7 +284,7 @@ p{
   color: white;
   background-image:url("../img/about-bg.jpg");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
 }
 
 #main-about{
