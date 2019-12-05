@@ -268,9 +268,17 @@ footer i:hover{
 
 /*about page*/
 
+#wrapper-footer{
+  display: flex;
+  display: -webkit-flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 #wrapper-about {
   max-width: 960px;
   margin: 0 auto;
+  flex: 1;
 }
 
 #about-h1{
