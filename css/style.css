@@ -37,6 +37,7 @@ nav a:hover{
   padding: 80px 0;
   background-image: url("../img/hearder.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   filter:grayscale(50%);
 }
@@ -97,16 +98,22 @@ font-family:Courgette, sans-serif;
 #makeup{
   grid-area: makeup;
   background-image: url("../img/makeup-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #skincare{
   grid-area: skincare;
   background-image: url("../img/skin-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #lifestyle{
   grid-area: lifestyle;
   background-image: url("../img/life-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #makeup h3:hover{
@@ -135,6 +142,8 @@ font-family:Courgette, sans-serif;
   margin-bottom: 50px;
   background-image:url("../img/hearder.jpg");
   filter:grayscale(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
